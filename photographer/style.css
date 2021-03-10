@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+:root {
+    --fontFamily: 'Playfair Display', serif;
+    --darkenRed: #c62828;
+    --darkenDeepPurple: #311b92;
+}
+/* basic style */
+body {
+    font-family: var(--fontFamily);
+}
+.section {
+    padding: 3rem 0;
+}
+/* header */
+header {
+    background: url(img/portrait-young-woman.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.credit {
+    color: rgba(255, 255, 255, .05)
+}
+.brand-logo {
+    font-style: italic;
+    font-weight: 700;
+}
+nav ul a:hover {
+    color: var(--darkenRed);
+    font-weight: 700;
+}
+.sidenav {
+    padding-top: 60px;
+}
+.sidenav li {
+    border-bottom: 1px solid rgba(198, 40, 40, .5);
+    padding: 1.3rem;
+}
+.sidenav li>a {
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* about */
+.tabs .indicator {
+    background: #311b92;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}
+/* paralax */
+.parallax-container {
+    height: 50vh;
+}
+/* contact */
+/* label focus color */
+.input-field input[type=text]:focus+label, 
+.input-field input[type=email]:focus+label, 
+textarea.materialize-textarea:focus+label {
+    color: var(--darkenDeepPurple) !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, 
+.input-field input[type=email]:focus, 
+textarea.materialize-textarea:focus {
+    border-bottom: 1px solid var(--darkenDeepPurple) !important;
+    box-shadow: 0 1px 0 0 var(--darkenDeepPurple) !important;
+}
+footer.parallax-container {
+    height: auto;
+}
+footer .row {
+    padding-bottom: 2rem;
+}
+footer i {
+    font-size: 2rem;
+    padding: .5rem;
+}
+.bottomBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(117, 92, 186), rgb(8, 57, 122));
+}
+/* responsive */
+@media(max-width: 600px) {
+    h2{
+        font-size: 2.2rem;        
+    }
+}

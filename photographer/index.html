@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/65e83da9d8.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Studio</title>
+</head>
+
+<body>
+    <header class="navBar">
+        <nav class="navbar-fixed transparent">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo red-text text-darken-4 left">Picturesque</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i
+                        class="material-icons red-text text-darken-4">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <a href="https://www.freepik.com/photos/woman" target="_blank" class="credit">Photocredit</a>
+        <ul class="sidenav blue-grey darken-4" id="mobile-demo">
+            <li><a href="index.html" class="white-text">Home</a></li>
+            <li><a href="#about" class="white-text">About</a></li>
+            <li><a href="#work" class="white-text">Work</a></li>
+            <li><a href="#contact" class="white-text">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="container section scrollspy" id="work">
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col sm12 l7 offset-l1">
+                    <h2>Portraits</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, minima commodi nihil aliquam
+                        voluptatibus atque.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4 push-l8 offset-l1">
+                    <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col sm12 l7  pull-l5">
+                    <h2>Cityscapes</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, minima commodi nihil aliquam
+                        voluptatibus atque.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/nature-1.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col sm12 l7 offset-l1">
+                    <h2>Nature &amp; Landscapes</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, minima commodi nihil aliquam
+                        voluptatibus atque.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4 push-l8 offset-l1">
+                    <img src="img/Events-Photographer.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col sm12 l7 pull-l5">
+                    <h2>Events</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, minima commodi nihil aliquam
+                        voluptatibus atque.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="parallax-container">
+            <div class="parallax"><img src="img/street.jpg" class="responsive-img"></div>
+        </section>
+
+        <section class="container section scrollspy" id="about">
+            <div class="row">
+                <div class="col s12 l4">
+                    <h2 class="deep-purple-text text-darken-4">What I do</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsa.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nisi recusandae vitae
+                        dolorem optio ducimus.</p>
+                </div>
+                <div class="col s12 l6 offset-l2">
+                    <ul class="tabs">
+                        <li class="tab col s6"><a href="#photography"
+                                class="deep-purple-text text-darken-4">Photography</a></li>
+                        <li class="tab col s6"><a href="#editing" class="deep-purple-text text-darken-4">Editing</a>
+                        </li>
+                    </ul>
+                    <div class="col s12" id="photography">
+                        <p class="flow-text deep-purple-text text-darken-4">PHOTOGRAPHY</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsa.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nisi recusandae vitae
+                            dolorem optio ducimus.</p>
+                    </div>
+                    <div class="col s12" id="editing">
+                        <p class="flow-text deep-purple-text text-darken-4">EDITING</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ipsa.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nisi recusandae vitae
+                            dolorem optio ducimus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="parallax-container">
+            <div class="parallax"><img src="img/stars.jpg" class="responsive-img"></div>
+        </section>
+
+        <section class="container section scrollspy" id="contact">
+            <div class="row">
+                <div class="col s12 l5">
+                    <h2 class="deep-purple-text text-darken-4">Get in Touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt esse vitae reprehenderit dolor
+                        nisi nulla.</p>
+                    <p><i class="material-icons deep-purple-text text-darken-4">perm_phone_msg</i> +381 69 213 465</p>
+                    <p><i class="material-icons deep-purple-text text-darken-4">location_on</i> Main Street, Novi Sad</p>    
+                </div>
+                <div class="col s12 l6 offset-l1">
+                    <form action="">
+                        <div class="input-field">
+                            <i class="material-icons prefix deep-purple-text text-darken-4">account_circle</i>
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Name</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix deep-purple-text text-darken-4">mail</i>
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix deep-purple-text text-darken-4">message</i>
+                            <textarea id="textarea" class="materialize-textarea" cols="30" rows="10"></textarea>
+                            <label for="textarea">Message</label>
+                        </div>
+                        <div class="input-field center">
+                            <button class="waves-effect waves-light btn deep-purple darken-4">Send<i
+                                    class="material-icons right">send</i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="parallax-container">
+        <div class="parallax"><img src="img/stars.jpg" class="responsive-img"></div>
+        <div class="container section">
+            <div class="row">
+                <div class="col s12 l6 white-text">
+                    <p class="flow-text">Lets connect on social networks</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur atque deleniti odio dolor, nam
+                        dolorem veritatis officiis corporis magni earum excepturi tempora suscipit labore esse aut iste
+                        tempore.</p>
+                    <a href="#"><i class="fab fa-instagram-square white-text hoverable"></i></a>
+                    <a href="#"><i class="fab fa-behance-square white-text hoverable"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square white-text hoverable"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square white-text hoverable"></i></a>
+                    <a href="#"><i class="fab fa-tumblr-square white-text hoverable"></i></a>
+                    <a href="#"><i class="fab fa-flickr white-text hoverable"></i></a>
+                </div>
+                <div class="col s12 l2 offset-l2 ">
+                    <div class="right-align-l">
+                        <p class="white-text flow-text">Menu</p>
+                        <ul class="unstyled-list">
+                            <li><a href="index.html" class="white-text">Home</a></li>
+                            <li><a href="#about" class="white-text">About</a></li>
+                            <li><a href="#work" class="white-text">Work</a></li>
+                            <li><a href="#contact" class="white-text">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomBar">
+            <div class="container">
+             <p class="white-text center">&copy;2021. Picturesque Photo Studio</p>              
+            </div>
+ 
+        </div>
+    </footer>
+    
+    <!--JQuerzy -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Index JS -->
+    <script src="index.js"></script>
+</body>
+
+</html>
